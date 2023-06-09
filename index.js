@@ -160,6 +160,8 @@ let filteredItem = myArray.filter( (item) => typeof item === "nmber");
 
 
 
+
+
 // foEach and the map
 myArr. forEach((item,index) => console .log(index,item));
 myArr.map((item,index) => console .log(index,item));
