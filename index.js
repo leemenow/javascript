@@ -141,6 +141,18 @@ console.log( removedItem, shiftedItem);
 // Using   the slice and spice
 let firstcopy = myArr.slice(3,9);
 let firstcopy2 = myArr.slice(3,-3);
+console.log(firstcopy, firstcopy2,);
+
+//using the splice 
+let removedItems = myArray.splice(5,3); //removes elements from array
+let removedItems2 = myArray.splice(3,3, "Abuja","Anambra");
+console.log(removedItems, removedItems2);
+
+let AbujaIndex = myArray.indexOf("Abuja"); // check if an item exsts
+console.log(AbujaIndex);
+
+let filteredItem = myArray.filter( (item) => typeof item === "nmber");
+
 
 
 
