@@ -2,3 +2,5 @@ let Nigeria = "Government had said it would remove fuel subsidy next year and re
 
 console.log(Nigeria);
 let myame = "ghghh";
+
+let xx = new Date();
